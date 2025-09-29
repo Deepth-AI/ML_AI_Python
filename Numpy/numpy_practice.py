@@ -1,0 +1,12 @@
+import numpy as np
+a=np.arange(15).reshape(5,3)
+b = np.array([6, 7, 8])
+print(a,b)
+print (a.shape)
+print (a.ndim)
+print (a.dtype.name)
+b= np.arange(10, 30, 5)
+print(b)
+rg = np.random.default_rng(1)
+a=rg.random((2,3))
+print(a.sum(),a.min(),a.max())
